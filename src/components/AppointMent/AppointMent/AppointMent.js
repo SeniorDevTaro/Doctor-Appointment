@@ -12,7 +12,11 @@ const AppointMent = () => {
     }
     return (
         <div>
-            
+            <Navbar></Navbar>
+            <AppointMentTop handleDateChange={handleDateChange} key={10}></AppointMentTop>
+            <BookApointMent selectDate={selectDate} key={6}></BookApointMent>
+            {/* <AppointMentForm></AppointMentForm> */}
+            <Footer></Footer>
         </div>
     );
 };
